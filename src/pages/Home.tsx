@@ -12,7 +12,7 @@ export function Home() {
                     <span> comum sobre diversos</span>
                     <span> livros, com o interesse</span>
                     <span> de cultivar o hábito da leitura.</span>
-                    <button type="button"> <a href="/livros">Acessar Resumos </a></button>
+                    <button type="button"> <a href="/livros" rel="button">Acessar Resumos </a></button>
                 </section>
                 <section>
                     <img src={bannerImg} alt="" />
@@ -20,7 +20,7 @@ export function Home() {
             </div>
             <div className="footer">
                 <footer>
-                    Desenvolvido por <a href="https://github.com/ArthurBernardoDev">ArthurBernardoDev</a>
+                    Desenvolvido por <a href="https://github.com/ArthurBernardoDev" rel="footer">ArthurBernardoDev</a>
                 </footer>
             </div>
         </div>

@@ -12,15 +12,15 @@ export function Header() {
 
                 <div className="menu">
 
-                    <a href="#">
+                    <a href="#" rel="Sobre">
                         Sobre
                     </a>
 
-                    <a href="/livros">
+                    <a href="/livros" rel="Livros">
                         Livros
                     </a>
 
-                    <a href="https://allmylinks.com/contato-arthurbernardoas">
+                    <a href="https://allmylinks.com/contato-arthurbernardoas" rel="Contato">
                         Contato
                     </a>
                 </div>
