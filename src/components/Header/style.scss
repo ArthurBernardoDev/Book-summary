@@ -1,0 +1,17 @@
+.headerContainer {
+   height: 7rem;
+
+   display: flex;
+   align-items: center;
+   
+   padding: 0 4rem;
+
+   justify-content: space-between;
+
+   .menu > a {
+       text-decoration: none;
+       color: #011627;
+       margin-left: 35px;
+       font-size: 2rem;
+   }
+}
