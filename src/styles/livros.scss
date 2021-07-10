@@ -1,0 +1,54 @@
+.homeLivros {
+    
+    margin-top: 100px;
+    width: 1216px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    section {
+
+        h2 {
+            font-size: 48px;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: none;
+            
+            
+            width: 100%;
+        
+            tbody {
+                background: #20314A;
+            }
+
+            td {
+                border: none;
+            }
+
+            th,
+            td {
+                padding: 0.75rem 1rem;
+                color: #fff;
+            }
+            th {
+                text-align: left;
+                color: #000;
+            }
+            button {
+                font-size: 18px;
+                width: 130px;
+                height: 50px;
+                border: none;
+                border-radius: 35px;
+                background: #20314A;
+    
+                a {
+                    text-decoration: none;
+                    color: #000;
+                }
+            }
+        }
+    }
+}
