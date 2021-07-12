@@ -5,13 +5,26 @@
     flex-direction: column;
     
     .listahabitos {
+        
         ul > li {
+            a {
+                color: #000;
+                text-decoration: none;
+            }
+            
             margin-bottom: 10px;
         }
         
         ul > ol {
+            
             li {
+                
                 margin-bottom: 10px;
+
+                a {
+                    color: #000;
+                    text-decoration: none;
+                }
             }
         }
     }
